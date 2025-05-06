@@ -18,7 +18,7 @@
     </main>
 
     <footer class="h-[10vh]">
-        <?php include 'src/footer.php'; ?> <!-- plantilla footer -->
+        <?php include 'src/footer.php'; ?> <!-- - plantilla footer -->
     </footer>
 </body>
 
