@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 
+<<<<<<< HEAD
 <body class="bg-gray-100 flex flex-col h-screen">
     <header class="h-[20vh]">
         <?php include 'src/header.php'; ?> <!-- plantilla header -->
@@ -20,6 +21,16 @@
     <footer class="h-[10vh]">
         <?php include 'src/footer.php'; ?> <!-- - plantilla footer -->
     </footer>
+=======
+<body>
+    <a href="src/controllers/auth/form-register.php">Regístrarse</a>
+    <a href="src/controllers/auth/form-login.php">Iniciar sesión</a>
+    <?php include 'src/header.php'; ?> <!-- plantilla header-->
+    <main>
+        <!-- contenido principal -->
+    </main>
+    <?php include 'src/footer.php'; ?> <!-- plantilla footer -->
+>>>>>>> d6ad6798e323d3184d253bd43a26f536d714c5e0
 </body>
 
 </html>
