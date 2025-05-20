@@ -1,0 +1,8 @@
+----- Admin -----
+
+antonio8833
+123
+$2y$10$uZ3C2DjY1MKfzhwO56QT3.Rhg9MnL7E27c/vIKctVo5Z59ZHFOiHi
+
+INSERT INTO users (email, name,password, role)
+VALUES ('antonio10kan@gmail.com', 'antonio8833','$2y$10$uZ3C2DjY1MKfzhwO56QT3.Rhg9MnL7E27c/vIKctVo5Z59ZHFOiHi', 'admin');

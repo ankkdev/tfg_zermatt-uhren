@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<!-- filepath: /Applications/XAMPP/xamppfiles/htdocs/zermatt-uhren/src/controllers/auth/form-login.php -->
-=======
->>>>>>> 8a892db208db029dd095bba20cc226614f5093db
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesión</title>
-<<<<<<< HEAD
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
@@ -32,21 +27,9 @@
         </div>
         <p class="mt-4 text-gray-600">
             ¿No tienes cuenta? <a href="form-register.php" class="text-blue-600 hover:underline">Regístrarse</a>
-        </p>    
+        </p>
     </div>
     <?php include '../../footer.php'; ?>
-=======
-</head>
-
-<body>
-    <h3>Inicio de sesión</h3>
-    <form action="login.php" method="POST">
-        <label for="email">Correo: </label><input type="email" name="email" required><br>
-        <label for="pswd">Contraseña</label><input type="password" name="pswd" id="pswd" required><br>
-        <button type="submit">Iniciar sesión</button>
-    </form>
-    <p>¿No tienes cuenta? Regístrate <a href="form-register.php">Regístrarse</a></p>
->>>>>>> 8a892db208db029dd095bba20cc226614f5093db
 </body>
 
 </html>

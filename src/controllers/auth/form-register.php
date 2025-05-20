@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse</title>
-<<<<<<< HEAD
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
@@ -48,7 +47,6 @@
         <button type="submit">Registrarse</button>
     </form>
     <p>¿Ya tienes una cuenta? Inicia sesión <a href="form-login.php">Iniciar sesión</a></p>
->>>>>>> 8a892db208db029dd095bba20cc226614f5093db
 </body>
 
 </html>
