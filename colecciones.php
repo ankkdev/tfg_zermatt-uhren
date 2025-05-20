@@ -47,7 +47,7 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <option value="price-asc" <?php if (isset($_GET['sort']) && $_GET['sort'] == 'price-asc') echo 'selected'; ?>>Precio menor a mayor</option>
             <option value="price-desc" <?php if (isset($_GET['sort']) && $_GET['sort'] == 'price-desc') echo 'selected'; ?>>Precio mayor a menor</option>
           </select>
-          <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white rounded p-2">Aplicar</button>
+          <button type="submit" class="bg-gray-700 hover:bg-gray-500 text-white rounded p-2">Aplicar</button>
         </form>
       </div>
 

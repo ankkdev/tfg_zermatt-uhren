@@ -36,7 +36,7 @@ if ($cart) {
                 </li>
             <?php endforeach; ?>
         </ul>
-        <a href="create_checkout_session.php" class="bg-green-500 text-white px-4 py-2 rounded mt-4 inline-block">Proceder al Pago</a>
+        <a href="create_checkout_session.php" class="bg-gray-700 hover:bg-gray-500 text-white px-4 py-2 rounded mt-4 inline-block">Proceder al Pago</a>
     <?php else: ?>
         <p>El carrito está vacío.</p>
     <?php endif; ?>

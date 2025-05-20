@@ -77,7 +77,7 @@ if (!$product) {
                                 <input type="hidden" name="id" value="<?php echo htmlspecialchars($product['id']); ?>">
                                 <label for="quantity" class="block text-gray-700 mb-2">Cantidad:</label>
                                 <input type="number" name="quantity" id="quantity" value="1" min="1" max="<?php echo htmlspecialchars($product['stock']); ?>" class="border rounded p-2 w-24 mb-4">
-                                <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded">
+                                <button type="submit" class="w-full bg-gray-700 hover:bg-gray-500 text-white py-3 rounded">
                                     Añadir al carrito
                                 </button>
                             </form>
