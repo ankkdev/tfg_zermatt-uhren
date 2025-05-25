@@ -268,6 +268,7 @@ El proyecto está desplegado en una instancia de **Ubuntu Server 24.04** alojada
 - **Reglas de seguridad (Security Groups)**:
   - Entrada: `0.0.0.0/0` (todos los puertos abiertos para pruebas)
   - Salida: `0.0.0.0/0` (todos los puertos abiertos para pruebas)
+    
    ![imagen](https://github.com/user-attachments/assets/44b099f8-235b-4864-8902-7ff48d59420a)
 
   - ⚠️ *Nota: Esta configuración es útil para desarrollo y pruebas, pero no recomendable para producción por motivos de seguridad.*
