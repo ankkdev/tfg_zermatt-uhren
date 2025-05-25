@@ -2,6 +2,23 @@
 
 **Zermatt Uhren** es una tienda online especializada en la venta de relojes japoneses y suizos. Desarrollada con tecnologías modernas como PHP, JavaScript, TailwindCSS, jQuery, jQuery UI y Fancybox. La web permite a los usuarios registrarse, iniciar sesión, visualizar productos y realizar compras seguras mediante integración con **Stripe**.
 
+# Índice
+
+1. [Zermatt Uhren 🕰️](#zermatt-uhren-🕰️)  
+2. [🛠️ Tecnologías utilizadas](#-tecnologías-utilizadas)  
+3. [⚙️ Funcionalidades](#-funcionalidades)  
+4. [🧾 Instalación del proyecto](#-instalación-del-proyecto)  
+   4.1 [Requisitos previos](#1-requisitos-previos)  
+   4.2 [Clonar el repositorio](#2-clonar-el-repositorio)  
+   4.3 [Integración con Stripe (modo de prueba)](#3-integración-con-stripe-modo-de-prueba)  
+5. [📂 Estructura del Proyecto](#-estructura-del-proyecto)  
+6. [✅ Notas finales](#-notas-finales)  
+7. [🏗️ Arquitectura y Programación Orientada a Objetos (POO)](#️-arquitectura-y-programación-orientada-a-objetos-poo)  
+   7.1 [Modelo de Capas (MVC)](#modelo-de-capas-mvc)  
+   7.2 [Programación Orientada a Objetos (POO)](#programación-orientada-a-objetos-poo)  
+8. [🖥️ Entorno de despliegue en servidor Ubuntu](#️-entorno-de-despliegue-en-servidor-ubuntu)  
+   8.1 [Configuración del servidor](#configuración-del-servidor)  
+9. [✅ Configuración básica de VirtualHost de Apache](#-configuración-básica-de-virtualhost-de-apache)
 ---
 
 ## 🛠️ Tecnologías utilizadas
@@ -251,6 +268,9 @@ El proyecto está desplegado en una instancia de **Ubuntu Server 24.04** alojada
   - Entrada: `0.0.0.0/0` (todos los puertos abiertos para pruebas)
   - Salida: `0.0.0.0/0`
   - ⚠️ *Nota: Esta configuración es útil para desarrollo y pruebas, pero no recomendable para producción por motivos de seguridad.*
+ 
+    ![imagen](https://github.com/user-attachments/assets/e415584d-d248-424d-a6bd-a8e4243acc8c)
+
 - **Actualización inicial del sistema**:
   ```bash
   sudo apt-get update
