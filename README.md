@@ -239,7 +239,7 @@ Para representar las entidades principales del sistema se utilizaron clases en P
     Product: Clase encargada de la gestión de productos, permitiendo crear, modificar, actualizar y eliminar productos en la base de datos, además de manejar sus atributos principales como nombre, descripción, precio, imágenes y stock.
 
 
-    ## 🖥️ Entorno de despliegue en servidor Ubuntu
+  🖥️ Entorno de despliegue en servidor Ubuntu
 
 El proyecto está desplegado en una instancia de **Ubuntu Server 24.04** alojada en **AWS EC2**.
 
@@ -259,10 +259,10 @@ El proyecto está desplegado en una instancia de **Ubuntu Server 24.04** alojada
   Software instalado:
 
     Apache2 con soporte para PHP:
-
+ ```bash
 sudo apt install apache2
 sudo apt install libapache2-mod-php
-
+ ```
 MySQL:
 
     sudo apt install mysql-server
