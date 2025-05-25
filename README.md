@@ -264,13 +264,14 @@ El proyecto está desplegado en una instancia de **Ubuntu Server 24.04** alojada
 
 - **IP pública del servidor**: `54.237.83.83`
 - **Acceso SSH habilitado** mediante clave privada (.pem) utilizando **MobaXterm** como cliente SSH.
+  ![imagen](https://github.com/user-attachments/assets/e415584d-d248-424d-a6bd-a8e4243acc8c)
 - **Reglas de seguridad (Security Groups)**:
   - Entrada: `0.0.0.0/0` (todos los puertos abiertos para pruebas)
   - Salida: `0.0.0.0/0`
   - ⚠️ *Nota: Esta configuración es útil para desarrollo y pruebas, pero no recomendable para producción por motivos de seguridad.*
  
     ![imagen](https://github.com/user-attachments/assets/bd3c80d9-df8e-4e0d-bdca-47b4329d41ba)
-    ![imagen](https://github.com/user-attachments/assets/e415584d-d248-424d-a6bd-a8e4243acc8c)
+    
     ![imagen](https://github.com/user-attachments/assets/44b099f8-235b-4864-8902-7ff48d59420a)
     
 
