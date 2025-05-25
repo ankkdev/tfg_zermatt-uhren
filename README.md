@@ -135,20 +135,80 @@ Configuración de otros métodos de pago
 ## 📂 Estructura del Proyecto
 
 ```plaintext
-zermatt-uhren/
-├── index.php
-├── login.php
-├── register.php
+ZERMATT-UHREN/
+├── .vscode/
+├── dist/
+│   ├── output.css
+│   ├── prototipos/
+│   │   ├── circel_fuente_del_logo.url
+│   │   └── prototipos.zip
+│   └── legal/
+│       ├── aviso-legal.php
+│       ├── cookies.php
+│       └── privacidad.php
+├── node_modules/
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   ├── fonts/
+│   │   ├── Inter/
+│   │   └── Playfair_Display/
+│   ├── img/
+│   │   ├── branding/
+│   │   ├── grid-gallery/
+│   │   └── banner.webp
+│   ├── js/
+│   │   ├── comment.js
+│   │   ├── galeria.js
+│   │   ├── grid-containers.js
+│   │   ├── login.js
+│   │   ├── nav-menu.js
+│   │   └── register.js
+│   ├── lib/
+│   │   ├── fancybox/
+│   │   ├── tool/
+│   │   ├── jquery/
+│   │   ├── jquery-ui/
+│   │   └── tailwind/
+│   ├── more_products/
+│   └── uploads/
+├── src/
+│   ├── controllers/
+│   │   └── auth/
+│   ├── config/
+│   │   └── database.php
+│   ├── db/
+│   ├── models/
+│   │   ├── comment.php
+│   │   ├── product.php
+│   │   └── user.php
+│   ├── products/
+│   ├── admin_kernel.php
+│   └── admin_products_list.php
+├── vendor/
+│   ├── composer/
+│   ├── slim/
+│   ├── autoload.php
+│   └── formulario_pago.php
+├── footer.php
+├── header.php
+├── input.css
+├── output.css
+├── .gitignore
+├── add_to_cart.php
+├── add-comment.php
+├── cambios-devo.php
 ├── carrito.php
-├── formulario_pago.php      # Muestra el formulario de pago
-├── pago.php                 # Procesa el pago con Stripe
-├── /api
-│   ├── vendor/
-│   └── autoload.php
-├── /css                     # Estilos (Tailwind u otros)
-├── /js                      # Scripts (jQuery, lógica JS)
-├── /img                     # Imágenes del sitio y productos
-└── README.md
+├── colecciones.php
+├── composer.json
+├── composer.lock
+├── index.php
+├── maira.txt
+├── marca.php
+├── package-lock.json
+├── package.json
+├── product.php
+└── servicios.php
 ```
 ✅ Notas finales
 
