@@ -237,3 +237,21 @@ Para representar las entidades principales del sistema se utilizaron clases en P
     User: Clase que maneja toda la lógica relacionada con los usuarios, como crear una cuenta, buscar usuarios por correo electrónico y gestionar la autenticación de forma segura.
 
     Product: Clase encargada de la gestión de productos, permitiendo crear, modificar, actualizar y eliminar productos en la base de datos, además de manejar sus atributos principales como nombre, descripción, precio, imágenes y stock.
+
+
+    ## 🖥️ Entorno de despliegue en servidor Ubuntu
+
+El proyecto está desplegado en una instancia de **Ubuntu Server 24.04** alojada en **AWS EC2**.
+
+### Configuración del servidor:
+
+- **IP pública del servidor**: `54.237.83.83`
+- **Acceso SSH habilitado** mediante clave privada (.pem) utilizando **MobaXterm** como cliente SSH.
+- **Reglas de seguridad (Security Groups)**:
+  - Entrada: `0.0.0.0/0` (todos los puertos abiertos para pruebas)
+  - Salida: `0.0.0.0/0`
+  - ⚠️ *Nota: Esta configuración es útil para desarrollo y pruebas, pero no recomendable para producción por motivos de seguridad.*
+- **Actualización inicial del sistema**:
+  ```bash
+  sudo apt-get update
+  sudo apt-get upgrade
