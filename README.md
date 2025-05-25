@@ -150,3 +150,11 @@ zermatt-uhren/
 ├── /js
 ├── /img
 └── README.md
+
+✅ Notas finales
+
+    El sistema de pago está en modo de pruebas: no se realizan transacciones reales.
+
+    Es importante validar la seguridad en producción.
+
+    Asegúrate de configurar tu base de datos correctamente.
