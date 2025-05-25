@@ -255,3 +255,30 @@ El proyecto está desplegado en una instancia de **Ubuntu Server 24.04** alojada
   ```bash
   sudo apt-get update
   sudo apt-get upgrade
+
+  Software instalado:
+
+    Apache2 con soporte para PHP:
+
+sudo apt install apache2
+sudo apt install libapache2-mod-php
+
+MySQL:
+
+    sudo apt install mysql-server
+
+        Contraseña configurada para el usuario root durante la instalación.
+
+        Base de datos y usuarios gestionados a través del archivo src/config/database.php.
+
+Acceso y administración remota:
+
+    Se usó MobaXterm para conectarse al servidor vía SSH y realizar configuraciones como:
+
+        Edición del archivo database.php
+
+        Gestión del servidor Apache y MySQL
+
+        Instalación de dependencias
+
+✅ El servidor está preparado para aceptar conexiones HTTP y gestionar peticiones desde el frontend y backend alojados en la misma instancia.
