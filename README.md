@@ -283,7 +283,7 @@ Acceso y administración remota:
 
 ✅ El servidor está preparado para aceptar conexiones HTTP y gestionar peticiones desde el frontend y backend alojados en la misma instancia.
 
-Configuración básica de VirtualHost en Apache
+🏗️ Configuración básica de VirtualHost de Apache
 
 El VirtualHost en Apache permite servir distintos sitios web desde un mismo servidor usando diferentes dominios o IPs.
 
