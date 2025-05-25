@@ -270,6 +270,10 @@ El proyecto está desplegado en una instancia de **Ubuntu Server 24.04** alojada
   - ⚠️ *Nota: Esta configuración es útil para desarrollo y pruebas, pero no recomendable para producción por motivos de seguridad.*
  
     ![imagen](https://github.com/user-attachments/assets/e415584d-d248-424d-a6bd-a8e4243acc8c)
+    ![imagen](https://github.com/user-attachments/assets/44b099f8-235b-4864-8902-7ff48d59420a)
+    ![imagen](https://github.com/user-attachments/assets/499618af-d1f0-4c73-b17a-3f1419fe102a)
+
+
 
 - **Actualización inicial del sistema**:
   ```bash
