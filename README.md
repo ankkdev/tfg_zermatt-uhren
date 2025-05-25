@@ -132,23 +132,22 @@ Configuración de otros métodos de pago
     Ve a: Configuración → Pagos → Métodos de pago
 
     Activa los que necesites (por ejemplo, Apple Pay, iDEAL, etc.)
+## 📂 Estructura del Proyecto
 
-    📂 Estructura del Proyecto
-
+```plaintext
 zermatt-uhren/
-│
 ├── index.php
 ├── login.php
 ├── register.php
 ├── carrito.php
-├── formulario_pago.php   # Aquí se muestra el formulario de pago
-├── pago.php              # Aquí se procesa el pago con Stripe
+├── formulario_pago.php      # Muestra el formulario de pago
+├── pago.php                 # Procesa el pago con Stripe
 ├── /api
 │   ├── vendor/
 │   └── autoload.php
-├── /css
-├── /js
-├── /img
+├── /css                     # Estilos (Tailwind u otros)
+├── /js                      # Scripts (jQuery, lógica JS)
+├── /img                     # Imágenes del sitio y productos
 └── README.md
 
 ✅ Notas finales
