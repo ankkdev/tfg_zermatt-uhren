@@ -13,7 +13,7 @@
     <div class="flex flex-col items-center justify-center min-h-screen">
         <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
             <h3 class="text-2xl font-bold mb-6 text-center">Crear cuenta</h3>
-            <form action="register.php" method="POST" class="space-y-4">
+            <form action="register.php" id="form-register" method="POST" class="space-y-4">
                 <div>
                     <label for="name" class="block text-gray-700">Nombre de usuario:</label>
                     <input type="text" id="name" name="name" required class="mt-1 block w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-300">
@@ -35,18 +35,18 @@
         </div>
     </div>
     <?php include '../../footer.php'; ?>
-=======
-</head>
+        <script src="../../../public/js/register.js"></script>
+    </head>
 
-<body>
-    <h3>Registro</h3>
-    <form action="register.php" method="POST">
-        <label for="username">Nombre de usuario:</label><input type="text" id="name" name="name" required><br>
-        <label for="email">Correo: </label><input type="email" name="email" required><br>
-        <label for="pswd">Contraseña</label><input type="password" name="pswd" id="pswd" required><br>
-        <button type="submit">Registrarse</button>
-    </form>
-    <p>¿Ya tienes una cuenta? Inicia sesión <a href="form-login.php">Iniciar sesión</a></p>
-</body>
+    <body>
+        <h3>Registro</h3>
+        <form action="register.php" method="POST">
+            <label for="username">Nombre de usuario:</label><input type="text" id="name" name="name" required><br>
+            <label for="email">Correo: </label><input type="email" name="email" required><br>
+            <label for="pswd">Contraseña</label><input type="password" name="pswd" id="pswd" required><br>
+            <button type="submit">Registrarse</button>
+        </form>
+        <p>¿Ya tienes una cuenta? Inicia sesión <a href="form-login.php">Iniciar sesión</a></p>
+    </body>
 
 </html>

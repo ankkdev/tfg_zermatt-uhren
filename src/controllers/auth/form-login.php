@@ -13,7 +13,7 @@
     <div class="flex flex-col items-center justify-center min-h-screen">
         <div class="bg-white p-8 rounded shadow-md w-full max-w-xs">
             <h3 class="text-xl font-bold mb-6 text-center">Inicio de sesión</h3>
-            <form action="login.php" method="POST" class="space-y-4">
+            <form action="login.php" id="form-login" method="POST" class="space-y-4">
                 <div>
                     <label for="email" class="block text-gray-700">Correo:</label>
                     <input type="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300">
@@ -30,6 +30,8 @@
         </p>
     </div>
     <?php include '../../footer.php'; ?>
+        <script src="../../../public/js/login.js"></script>
+
 </body>
 
 </html>

@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $product->description = $_POST['description'] ?? '';
     $product->price = $_POST['price'] ?? '';
 
-    $uploadDir = $_SERVER['DOCUMENT_ROOT'] . '/zermatt-uhren/public/uploads/';//carpeta donde se almacenarán las imágenes
+    $uploadDir = $_SERVER['DOCUMENT_ROOT'] . '/zermatt-uhren/public/uploads/'; //carpeta donde se almacenarán las imágenes
     if (!file_exists($uploadDir)) { //si no existe esa carpeta pues la crea
         mkdir($uploadDir, 0755, true);
     }

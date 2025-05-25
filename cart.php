@@ -36,7 +36,13 @@ if ($cart) {
                 </li>
             <?php endforeach; ?>
         </ul>
-        <a href="create_checkout_session.php" class="bg-gray-700 hover:bg-gray-500 text-white px-4 py-2 rounded mt-4 inline-block">Proceder al Pago</a>
+        <?php
+        $total = 0;
+        foreach ($cartItems as $item) {
+            $total += $item['price'] * $cart[$item['id']];
+        }
+        ?>
+        <a href="/zermatt-uhren/vendor/formulario_pago.php?total=<?php echo $total; ?>" class="bg-gray-700 hover:bg-gray-500 text-white px-4 py-2 rounded mt-4 inline-block">Proceder al Pago</a>
     <?php else: ?>
         <p>El carrito está vacío.</p>
     <?php endif; ?>

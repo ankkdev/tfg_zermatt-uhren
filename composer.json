@@ -1,0 +1,15 @@
+{
+    "name": "antoniokanonchyk/api",
+    "description": "pago con stripe",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "antonio"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "stripe/stripe-php": "^17.2"
+    }
+}

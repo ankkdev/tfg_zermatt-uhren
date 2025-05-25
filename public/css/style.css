@@ -1,0 +1,73 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("/zermatt-uhren/public/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "PlayfairDisplay", sans-serif;
+  font-weight: normal;
+  font-size: 4rem; /* Valor para pantallas grandes */
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/zermatt-uhren/public/fonts/Inter_18pt-Medium.ttf")
+    format("truetype");
+  font-weight: 500; /* o el valor que corresponda al Medium */
+  font-style: normal;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+main {
+  margin-bottom: 6rem;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2.5rem; /* Valor para dispositivos móviles */
+  }
+}
+
+/* Ejemplo de uso */
+.reloj p,
+.reloj blockquote {
+  font-family: "PlayfairDisplay", sans-serif;
+}
+
+.another-selector {
+  font-family: "Inter", sans-serif;
+}
+/* slider ocupa toda la pantalla*/
+#slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+/*las imagenes ocupan toda la pantalla y se ajustan con cover*/
+#slider img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+#slider img.active {
+  display: block;
+}
+/*botones centrados en la parte inferior*/
+#controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}

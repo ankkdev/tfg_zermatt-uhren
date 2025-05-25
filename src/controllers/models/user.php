@@ -18,8 +18,8 @@ class User
     }
     public function findByEmail($email) //esa funcion recibe $email como parametro para luego buscarlo en la bbdd
     {
-        $smt = $this->pdo->prepare("SELECT * from users where email = :email");//selecciona todos los campos de la tabla Users donde el correo coincida con el correo introducido
-        $smt->execute([':email' => $email]);//reemplaza el mercador de posición ':email' con el valor real que es '$email'
+        $smt = $this->pdo->prepare("SELECT * from users where email = :email"); //selecciona todos los campos de la tabla Users donde el correo coincida con el correo introducido
+        $smt->execute([':email' => $email]); //reemplaza el mercador de posición ':email' con el valor real que es '$email'
         return $smt->fetch(PDO::FETCH_ASSOC);
     }
 }

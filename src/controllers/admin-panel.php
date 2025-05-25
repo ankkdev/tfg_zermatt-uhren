@@ -101,35 +101,36 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
       <?php endif; ?>
 
       <h2 class="text-2xl font-bold mb-4">Listado de Productos</h2>
-      <table class="min-w-full bg-white border">
-        <thead>
-          <tr>
-            <th class="py-2 px-4 border-b">ID</th>
-            <th class="py-2 px-4 border-b">Nombre</th>
-            <th class="py-2 px-4 border-b">Descripción</th>
-            <th class="py-2 px-4 border-b">Precio</th>
-            <th class="py-2 px-4 border-b">Stock</th>
-
-            <th class="py-2 px-4 border-b">Acciones</th>
-          </tr>
-        </thead>
-        <tbody>
-          <?php foreach ($products as $prod): ?>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white border">
+          <thead>
             <tr>
-              <td class="py-2 px-4 border-b"><?php echo $prod['id']; ?></td>
-              <td class="py-2 px-4 border-b"><?php echo htmlspecialchars($prod['name']); ?></td>
-              <td class="py-2 px-4 border-b"><?php echo htmlspecialchars($prod['description']); ?></td>
-              <td class="py-2 px-4 border-b"><?php echo htmlspecialchars($prod['price']); ?></td>
-              <td class="py-2 px-4 border-b"><?php echo htmlspecialchars($prod['stock']); ?></td>
-              <td class="py-2 px-4 border-b">
-                <a href="admin-panel.php?edit_id=<?php echo $prod['id']; ?>" class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded">Editar</a>
-                <a href="admin-panel.php?delete_id=<?php echo $prod['id']; ?>" class="bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded" onclick="return confirm('¿Está seguro de eliminar este producto?');">Eliminar</a>
-              </td>
-            </tr>
-          <?php endforeach; ?>
-        </tbody>
-      </table>
+              <th class="py-2 px-4 border-b">ID</th>
+              <th class="py-2 px-4 border-b">Nombre</th>
+              <th class="py-2 px-4 border-b">Descripción</th>
+              <th class="py-2 px-4 border-b">Precio</th>
+              <th class="py-2 px-4 border-b">Stock</th>
 
+              <th class="py-2 px-4 border-b">Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php foreach ($products as $prod): ?>
+              <tr>
+                <td class="py-2 px-4 border-b"><?php echo $prod['id']; ?></td>
+                <td class="py-2 px-4 border-b"><?php echo htmlspecialchars($prod['name']); ?></td>
+                <td class="py-2 px-4 border-b"><?php echo htmlspecialchars($prod['description']); ?></td>
+                <td class="py-2 px-4 border-b"><?php echo htmlspecialchars($prod['price']); ?></td>
+                <td class="py-2 px-4 border-b"><?php echo htmlspecialchars($prod['stock']); ?></td>
+                <td class="py-2 px-4 border-b">
+                  <a href="admin-panel.php?edit_id=<?php echo $prod['id']; ?>" class="bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded">Editar</a>
+                  <a href="admin-panel.php?delete_id=<?php echo $prod['id']; ?>" class="bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded" onclick="return confirm('¿Está seguro de eliminar este producto?');">Eliminar</a>
+                </td>
+              </tr>
+            <?php endforeach; ?>
+          </tbody>
+        </table>
+      </div>
     </div>
   </main>
   <?php include '../footer.php'; ?>
