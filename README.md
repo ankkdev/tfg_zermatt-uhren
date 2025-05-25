@@ -149,7 +149,7 @@ zermatt-uhren/
 ├── /js                      # Scripts (jQuery, lógica JS)
 ├── /img                     # Imágenes del sitio y productos
 └── README.md
-
+```
 ✅ Notas finales
 
     El sistema de pago está en modo de pruebas: no se realizan transacciones reales.
@@ -157,3 +157,23 @@ zermatt-uhren/
     Es importante validar la seguridad en producción.
 
     Asegúrate de configurar tu base de datos correctamente.
+
+
+🏗️ Arquitectura y Programación Orientada a Objetos (POO)
+
+La aplicación web Zermatt Uhren está desarrollada siguiendo el patrón arquitectónico MVC (Modelo-Vista-Controlador), que permite una separación clara entre la lógica de negocio, la interfaz de usuario y el control de flujo, facilitando el mantenimiento y escalabilidad del proyecto.
+Modelo de Capas (MVC)
+
+    Modelo (Model): Gestiona la lógica y estructura de los datos de la aplicación, incluyendo la interacción con la base de datos. En este proyecto, las entidades principales como los usuarios y productos están representadas mediante clases orientadas a objetos, que encapsulan la funcionalidad y atributos de cada entidad.
+
+    Vista (View): Compuesta por los archivos que muestran la interfaz gráfica al usuario, utilizando tecnologías frontend como HTML, Tailwind CSS para estilos, y JavaScript con librerías como jQuery, jQuery UI y Fancybox para mejorar la experiencia visual e interactiva.
+
+    Controlador (Controller): Responsable de recibir las peticiones del usuario, procesar la lógica correspondiente utilizando los modelos, y devolver las vistas adecuadas. Aquí se gestionan funcionalidades como el registro, inicio de sesión y procesamiento de pagos.
+
+Programación Orientada a Objetos (POO)
+
+Para representar las entidades principales del sistema se utilizaron clases en PHP que encapsulan tanto los datos como los métodos para operar sobre ellos, siguiendo principios de POO. Esto incluye:
+
+    User: Clase que maneja toda la lógica relacionada con los usuarios, como crear una cuenta, buscar usuarios por correo electrónico y gestionar la autenticación de forma segura.
+
+    Product: Clase encargada de la gestión de productos, permitiendo crear, modificar, actualizar y eliminar productos en la base de datos, además de manejar sus atributos principales como nombre, descripción, precio, imágenes y stock.
