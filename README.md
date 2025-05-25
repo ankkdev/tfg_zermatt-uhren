@@ -283,10 +283,10 @@ Acceso y administración remota:
 
 ✅ El servidor está preparado para aceptar conexiones HTTP y gestionar peticiones desde el frontend y backend alojados en la misma instancia.
 
-🏗️ Configuración básica de VirtualHost de Apache
+  Configuración básica de VirtualHost de Apache
 
 El VirtualHost en Apache permite servir distintos sitios web desde un mismo servidor usando diferentes dominios o IPs.
-
+ ```bash
 <VirtualHost *:80>
     # The ServerName directive sets the request scheme, hostname and port that
     # the server uses to identify itself. This is used when creating
@@ -317,5 +317,5 @@ El VirtualHost en Apache permite servir distintos sitios web desde un mismo serv
     # after it has been globally disabled with "a2disconf".
     #Include conf-available/serve-cgi-bin.conf
 </VirtualHost>
-
+ ```
 
