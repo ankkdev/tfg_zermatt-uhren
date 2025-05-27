@@ -345,3 +345,11 @@ El VirtualHost en Apache permite servir distintos sitios web desde un mismo serv
 </VirtualHost>
  ```
 ![imagen](https://github.com/user-attachments/assets/499618af-d1f0-4c73-b17a-3f1419fe102a)
+
+Diagrama Entidad - Relación
+
+![Diagrama ER de base de datos (pata de gallo)](https://github.com/user-attachments/assets/7f125f39-78bd-4435-8fed-a90cf9ddad34)
+
+Diagrama de Capas (Lógica,acceso a bbdd y bbdd)
+
+![Mapa conceptual](https://github.com/user-attachments/assets/681f064f-a80d-4fce-9946-e7d52679c046)
