@@ -344,7 +344,7 @@ El VirtualHost en Apache permite servir distintos sitios web desde un mismo serv
     #Include conf-available/serve-cgi-bin.conf
 </VirtualHost>
  ```
-![imagen](https://github.com/user-attachments/assets/499618af-d1f0-4c73-b17a-3f1419fe102a)
+![imagen](https://github.com/user-attachments/assets/7438de41-ec31-4b51-9f09-1783c826bdaa)
 
 Diagrama Entidad - Relación
 
