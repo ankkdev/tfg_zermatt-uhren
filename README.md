@@ -112,7 +112,7 @@ Verifica que se ha generado:
 
     El archivo vendor/autoload.php
 
-Paso 5: Incluir Stripe en tus archivos PHP
+Paso 5: Incluir Stripe en tus archivos PHP (formulario_pago.php usa clave publica y pago.php usa la clave secreta)
 
 En pago.php, incluye el autoload y configura tu clave secreta de Stripe:
 ```bash
