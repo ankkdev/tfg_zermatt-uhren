@@ -324,7 +324,7 @@ El VirtualHost en Apache permite servir distintos sitios web desde un mismo serv
     #ServerName www.example.com
 
     ServerName 54.237.83.83
-    ServerAdmin antonio7kan@gmail.com
+    ServerAdmin name@gmail.com
     DocumentRoot /var/www/html
 
     # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
