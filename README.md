@@ -112,7 +112,7 @@ Verifica que se ha generado:
 
     El archivo vendor/autoload.php
 
-Paso 5: Incluir Stripe en tus archivos PHP
+Paso 5: Incluir Stripe en tus archivos PHP (formulario_pago.php usa clave publica y pago.php usa la clave secreta)
 
 En pago.php, incluye el autoload y configura tu clave secreta de Stripe:
 ```bash
@@ -344,7 +344,7 @@ El VirtualHost en Apache permite servir distintos sitios web desde un mismo serv
     #Include conf-available/serve-cgi-bin.conf
 </VirtualHost>
  ```
-![imagen](https://github.com/user-attachments/assets/499618af-d1f0-4c73-b17a-3f1419fe102a)
+![imagen](https://github.com/user-attachments/assets/7438de41-ec31-4b51-9f09-1783c826bdaa)
 
 Diagrama Entidad - Relación
 
