@@ -10,7 +10,7 @@ pero como Composer lo crea en la raíz del proyecto,
 asi que debo usar la ruta absoluta del directorio actual
 */
 require_once __DIR__ . '/../vendor/autoload.php';
-\Stripe\Stripe::setApiKey('sk_test_51QtpMaLKNdac4G5wdh56TsPEcU6ZusQ6R09Am6m8wtM7gcEE8rvMj9xDDIRPY9V7kXYrnABKrCksDqJS7dTw9U5000I9FpLmIF');
+\Stripe\Stripe::setApiKey('SECRET API KEY FROM STRIPE');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $amount = isset($_POST['amount']) ? floatval($_POST['amount']) : 0;
     $paymentMethod = $_POST['payment_method'] ?? '';
