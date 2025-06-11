@@ -26,7 +26,7 @@ $total = isset($_GET['total']) ? floatval($_GET['total']) : 0;
     </form>
     <script>
         const stripe =
-            Stripe('pk_test_51QtpMaLKNdac4G5wj2RqIAHTWqgewMMSDwSxy7YveVMwUFINgl0zN0BWGUDaAbNcPebguhI0EOdKbpgojxN0zne200JaeJBQkU');
+            Stripe('PUBLIC API FROM STRIPE');
         const elements = stripe.elements();
         const cardElement = elements.create('card');
         cardElement.mount('#card-element');
