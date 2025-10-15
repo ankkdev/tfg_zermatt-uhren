@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Política de Cookies</title>
     <link rel="stylesheet" href="/zermatt-uhren/public/css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>-->
+     <link rel="stylesheet" href="../src/output.css">
 </head>
 <body>
     <header class="h-[20vh] bg-gray-100 flex flex-col items-center justify-center mt-6">

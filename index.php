@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Tailwind en CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+        <link rel="stylesheet" href="./src/output.css"><!--funciona -->
+
     <!-- Tailwind en LOCAL (NO FUNCIONA) <link href="/zermatt-uhren/public/lib/tailwind/output.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="/zermatt-uhren/public/css/style.css"> -->
     <link rel="stylesheet" href="/zermatt-uhren/public/lib/fancybox/fancybox.css" /> <!-- css de fancybox,su .js está abajo -->

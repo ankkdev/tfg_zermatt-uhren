@@ -38,7 +38,9 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
   <title>Colecciones de relojes automáticos</title>
   <script src="/zermatt-uhren/public/js/nav-menu.js"></script>
   <link rel="stylesheet" href="/zermatt-uhren/public/css/style.css">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>-->
+      <link rel="stylesheet" href="./src/output.css">
+
 </head>
 
 <body class="flex flex-col min-h-screen bg-gray-100">
